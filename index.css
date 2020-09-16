@@ -29,6 +29,7 @@ html body{
 	right: 40px;
 	top: 40vh;
 	width: 80px;
+	height: 90px;
 	cursor: pointer;
 }
 
@@ -339,6 +340,7 @@ html body{
 
 .lesson-1-all-img {
 	width: 100px;
+	height: 86px;
 	margin: 12px 8px;
 }
 
@@ -537,6 +539,7 @@ html body{
 
 .lesson-3-all-center-img {
 	width: 60px;
+	height: 60px;
 	margin: 10px;
 }
 
@@ -647,6 +650,7 @@ html body{
 	
 	.register-link {
 		width: 60px;
+		height: 68px;
 	}
 	
 	.bg-box {
