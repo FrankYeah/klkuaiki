@@ -351,6 +351,13 @@ html body{
 	margin-top: 16px;
 }
 
+.lesson-1-all-register {
+	margin-top: 16px;
+	width: 80px;
+	height: 90px;
+	cursor: pointer;
+}
+
 .lesson-1-all-close {
 	position: absolute;
     top: 10%;
@@ -464,6 +471,13 @@ html body{
 	margin: 20px 0px 0px 80px;
 	text-indent: -80px;
 	color: #96ff3c;
+}
+
+.lesson-2-all-register {
+	margin-top: 16px;
+	width: 80px;
+	height: 90px;
+	cursor: pointer;
 }
 
 
@@ -624,6 +638,13 @@ html body{
 
 .lesson-3-all-right-text {
 	color: white;
+}
+
+.lesson-3-all-register {
+	margin-top: 20px;
+	width: 80px;
+	height: 90px;
+	cursor: pointer;
 }
 
 .lesson-3-all-line {
@@ -1060,6 +1081,10 @@ html body{
 	
 	.lesson-3-all-right-text {
 		font-size: 16px;
+	}
+
+	.lesson-3-all-register {
+		margin-top: 30px;
 	}
 	
 	.lesson-3-all-line {

@@ -122,3 +122,23 @@ lesson3down.addEventListener('click', function() {
 closeLesson3.addEventListener('click', function() {
     lesson3.style.display = 'none'
 })
+
+// register
+
+var lesson1Register = document.getElementById('lesson1Register');
+lesson1Register.addEventListener('click', function() {
+    // window.location.href = 'https://forms.gle/AHmQN8NVS2D4DSwn8';
+    window.open('https://forms.gle/AHmQN8NVS2D4DSwn8');
+})
+
+var lesson2Register = document.getElementById('lesson2Register');
+lesson2Register.addEventListener('click', function() {
+    // window.location.href = 'https://forms.gle/AHmQN8NVS2D4DSwn8';
+    window.open('https://forms.gle/AHmQN8NVS2D4DSwn8');
+})
+
+var lesson3Register = document.getElementById('lesson3Register');
+lesson3Register.addEventListener('click', function() {
+    // window.location.href = 'https://forms.gle/AHmQN8NVS2D4DSwn8';
+    window.open('https://forms.gle/AHmQN8NVS2D4DSwn8');
+})
