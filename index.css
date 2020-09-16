@@ -929,12 +929,12 @@ html body{
 	}
 	
 	.lesson-2-all-intro-right {
-	
+		margin-top: -4px;
 	}
 	
 	.lesson-2-all-intro-main-actor {
 		font-size: 14px;
-		margin: 20px 0px 0px 70px;
+		margin: 4px 0px 0px 70px;
 		text-indent: -70px;
 		/* margin: 20px 0px 0px;
     	text-indent: 0px; */
@@ -943,7 +943,7 @@ html body{
 	
 	.lesson-2-all-intro-actor {
 		font-size: 14px;
-		margin: 20px 0px 0px 70px;
+		margin: 4px 0px 0px 70px;
 		text-indent: -70px;
 		/* margin: 20px 0px 0px;
     	text-indent: 0px; */
