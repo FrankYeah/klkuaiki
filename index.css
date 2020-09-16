@@ -435,6 +435,40 @@ html body{
 	margin-top: 10px;
 }
 
+.lesson-2-all-intro-box {
+	color: #96ff3c;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.lesson-2-all-intro-left {
+
+}
+
+.lesson-2-all-intro-text {
+	margin-top: 8px;
+}
+
+.lesson-2-all-intro-right {
+
+}
+
+.lesson-2-all-intro-main-actor {
+	margin-top: 30px;
+	color: #96ff3c;
+	text-align: center;
+}
+
+
+.lesson-2-all-intro-actor {
+	margin-top: 8px;
+	color: #96ff3c;
+	text-align: center;
+}
+
+
 .lesson-2-all-close {
 	position: absolute;
 	top: 10%;
@@ -879,6 +913,35 @@ html body{
 	
 	.lesson-2-all-text {
 		font-size: 14px;
+	}
+
+	.lesson-2-all-intro-box {
+		flex-direction: column;
+		align-items: initial;
+		justify-content: initial;
+	}
+	
+	.lesson-2-all-intro-left {
+	
+	}
+	
+	.lesson-2-all-intro-text {
+	
+	}
+	
+	.lesson-2-all-intro-right {
+	
+	}
+	
+	.lesson-2-all-intro-main-actor {
+		text-align: left;
+		margin-top: 20px;
+	}
+	
+	
+	.lesson-2-all-intro-actor {
+		text-align: left;
+		margin-top: 20px;
 	}
 	
 	.lesson-2-all-close {
