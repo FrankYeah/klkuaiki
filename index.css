@@ -45,12 +45,12 @@ html body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-  background: url('./img/float-building.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-x: center;
-  background-position-y: center;
-  height: 70vh;
+	background: url('./img/float-building.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-x: center;
+	background-position-y: center;
+	height: 500px;
 	width: 100vw;
 	z-index: -1;
 }
@@ -143,8 +143,8 @@ html body{
 }
 
 .lesson-1-up {
-	width: 200px;
-	height: 65px;
+	width: 260px;
+    height: 84px;
 	background-image: url('./img/lesson01.png');
   background-repeat: no-repeat;
   background-size: contain;
@@ -156,9 +156,9 @@ html body{
 .lesson-1-down {
 	position: relative;
 	display: none;
-	width: 200px;
-	height: 65px;
-	line-height: 65px;
+	width: 260px;
+    height: 84px;
+	line-height: 84px;
 	text-align: center;
 	font-size: 16px;
 	color: rgba(255,255,255,0);
@@ -169,8 +169,8 @@ html body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 200px;
-	height: 65px;
+	width: 260px;
+    height: 85px;
   background-image: url('./img/keelung-strange.png');
   background-repeat: no-repeat;
   background-size: contain;
@@ -180,7 +180,7 @@ html body{
 
 .lesson-1-down-text {
 	font-size: 14px;
-	line-height: 65px;
+	line-height: 84px;
 	color: #96ff3c;
 }
 
@@ -192,8 +192,8 @@ html body{
 }
 
 .lesson-2-up {
-	width: 200px;
-	height: 65px;
+	width: 260px;
+    height: 84px;
 	background-image: url('./img/lesson02.png');
   background-repeat: no-repeat;
   background-size: contain;
@@ -205,9 +205,9 @@ html body{
 .lesson-2-down {
 	position: relative;
 	display: none;
-	width: 200px;
-	height: 65px;
-	line-height: 65px;
+	width: 260px;
+    height: 84px;
+	line-height: 84px;
 	text-align: center;
 	font-size: 16px;
 	color: rgba(255,255,255,0);
@@ -218,8 +218,8 @@ html body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 200px;
-	height: 65px;
+	width: 260px;
+    height: 85px;
   background-image: url('./img/our-voice.png');
   background-repeat: no-repeat;
   background-size: contain;
@@ -229,7 +229,7 @@ html body{
 
 .lesson-2-down-text {
 	font-size: 14px;
-	line-height: 65px;
+	line-height: 84px;
 	color: #96ff3c;
 }
 
@@ -241,8 +241,8 @@ html body{
 }
 
 .lesson-3-up {
-	width: 200px;
-	height: 65px;
+	width: 260px;
+    height: 84px;
 	background-image: url('./img/lesson03.png');
   background-repeat: no-repeat;
   background-size: contain;
@@ -254,9 +254,9 @@ html body{
 .lesson-3-down {
 	position: relative;
 	display: none;
-	width: 200px;
-	height: 65px;
-	line-height: 65px;
+	width: 260px;
+    height: 84px;
+	line-height: 84px;
 	text-align: center;
 	font-size: 16px;
 	color: rgba(255,255,255,0);
@@ -267,8 +267,8 @@ html body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 200px;
-	height: 65px;
+	width: 260px;
+    height: 85px;
   background-image: url('./img/prg-run.png');
   background-repeat: no-repeat;
   background-size: contain;
@@ -278,7 +278,7 @@ html body{
 
 .lesson-3-down-text {
 	font-size: 14px;
-	line-height: 65px;
+	line-height: 84px;
 	color: #96ff3c;
 }
 
@@ -645,7 +645,7 @@ html body{
 
 .footer {
 	color: #96ff3c;
-	margin-top: 40px;
+	margin-top: 100px;
 	text-align: center;
 }
 
@@ -749,7 +749,8 @@ html body{
 	/* 1 */
 	
 	.lesson-1-box {
-		margin: 0px 0px 20px;
+		height: auto;
+		margin: 0px 0px 60px;
 	}
 	
 	.lesson-1-up {
@@ -771,7 +772,8 @@ html body{
 	/* 2 */
 	
 	.lesson-2-box {
-		margin: 0px 0px 20px;
+		height: auto;
+		margin: 0px 0px 60px;
 	}
 	
 	.lesson-2-up {
@@ -793,7 +795,8 @@ html body{
 	/* 3 */
 	
 	.lesson-3-box {
-		margin: 0px 0px 20px;
+		height: auto;
+		margin: 0px 0px 60px;
 	}
 	
 	.lesson-3-up {
@@ -837,7 +840,7 @@ html body{
 	}
 	
 	.lesson-1-all-text {
-		font-size: 14px;
+
 	}
 	
 	.lesson-1-all-right {
@@ -910,14 +913,14 @@ html body{
 	}
 	
 	.lesson-2-all-text {
-		font-size: 14px;
+
 	}
 
 	.lesson-2-all-intro-box {
 		flex-direction: column;
 		align-items: initial;
 		justify-content: initial;
-		font-size: 14px;
+		font-size: 16px;
 	}
 	
 	.lesson-2-all-intro-left {
@@ -994,7 +997,7 @@ html body{
 	}
 	
 	.lesson-3-all-left-text {
-		font-size: 14px;
+		font-size: 16px;
 	}
 	
 	.lesson-3-all-center {
@@ -1022,6 +1025,7 @@ html body{
 	}
 	
 	.lesson-3-all-center-box {
+		width: auto;
 		margin-top: 80px;
 		border: 0px;
 	}
@@ -1035,7 +1039,7 @@ html body{
 	}
 	
 	.lesson-3-all-center-box-img {
-
+		width: 100%;
 	}
 	
 	.lesson-3-all-right {
@@ -1055,7 +1059,7 @@ html body{
 	}
 	
 	.lesson-3-all-right-text {
-		font-size: 14px;
+		font-size: 16px;
 	}
 	
 	.lesson-3-all-line {
@@ -1069,6 +1073,7 @@ html body{
 	/* inside end */
 	
 	.footer {
+		margin-top: 40px;
 		font-size: 12px;
 		padding: 0px 10px;
 	}
