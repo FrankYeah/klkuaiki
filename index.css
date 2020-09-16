@@ -331,8 +331,11 @@ html body{
 }
 
 .lesson-1-all-close {
-	width: 40px;
-	cursor: pointer;
+	position: absolute;
+    top: 10%;
+    right: 12%;
+    width: 40px;
+    cursor: pointer;
 }
 
 
@@ -645,11 +648,10 @@ html body{
 	}
 	
 	.shine-text {
-
+		font-size: 40px;
 	}
 	
 	.wt-text {
-
 	}
 	 
 	.video-box {
@@ -665,11 +667,11 @@ html body{
 	}
 	
 	.plan-head {
-
+		font-size: 30px;
 	}
 	
 	.plan-text {
-
+		font-size: 14px;
 	}
 	
 	.plan-sign {
@@ -691,7 +693,7 @@ html body{
 	/* 1 */
 	
 	.lesson-1-box {
-
+		margin: 0px 0px 20px;
 	}
 	
 	.lesson-1-up {
@@ -713,7 +715,7 @@ html body{
 	/* 2 */
 	
 	.lesson-2-box {
-
+		margin: 0px 0px 20px;
 	}
 	
 	.lesson-2-up {
@@ -735,7 +737,7 @@ html body{
 	/* 3 */
 	
 	.lesson-3-box {
-
+		margin: 0px 0px 20px;
 	}
 	
 	.lesson-3-up {
@@ -761,7 +763,8 @@ html body{
 	}
 	
 	.lesson-1-all-box {
-
+		flex-direction: column;
+		justify-content: end;
 	}
 	
 	.lesson-1-all-left {
@@ -769,23 +772,24 @@ html body{
 	}
 	
 	.lesson-1-all-lesson {
-
+		font-size: 40px;
 	}
 	
 	.lesson-1-all-head {
-
+		font-size: 40px;
+		margin: 2px 0px 12px;
 	}
 	
 	.lesson-1-all-text {
-
+		font-size: 14px;
 	}
 	
 	.lesson-1-all-right {
-
+		margin: 20px 30px 0px;
 	}
 	
 	.lesson-1-all-img-box {
-
+		justify-content: center;
 	}
 	
 	.lesson-1-all-img {
@@ -797,7 +801,7 @@ html body{
 	}
 	
 	.lesson-1-all-close {
-
+		width: 30px;
 	}
 	
 	
@@ -808,7 +812,9 @@ html body{
 	}
 	
 	.lesson-2-all-box {
-
+		flex-direction: column;
+		justify-content: end;
+		align-items: initial;
 	}
 	
 	.lesson-2-all-left {
@@ -816,27 +822,31 @@ html body{
 	}
 	
 	.lesson-2-all-lesson {
-
+		font-size: 40px;
 	}
 	
 	.lesson-2-all-head {
-
+		font-size: 40px;
+		margin: 2px 0px 12px;
+	}
+	.lesson-2-all-img-box {
+		text-align: center;
 	}
 	
 	.lesson-2-all-img {
-
+		width: 80%;
 	}
 	
 	.lesson-2-all-right {
-
+		margin: 30px 30px 0px;
 	}
 	
 	.lesson-2-all-place {
-
+		font-size: 20px;
 	}
 	
 	.lesson-2-all-time {
-
+		font-size: 20px;
 	}
 	
 	.lesson-2-all-group {
@@ -844,11 +854,11 @@ html body{
 	}
 	
 	.lesson-2-all-text {
-
+		font-size: 14px;
 	}
 	
 	.lesson-2-all-close {
-
+		width: 30px;
 	}
 	
 	
@@ -864,11 +874,12 @@ html body{
 	}
 	
 	.lesson-3-all-lesson {
-
+		font-size: 40px;
 	}
 	
 	.lesson-3-all-head {
-
+		font-size: 40px;
+		margin: 2px 0px 12px;
 	}
 	
 	.lesson-3-all-hind {
@@ -876,7 +887,8 @@ html body{
 	}
 	
 	.lesson-3-all-inside-box {
-
+		flex-direction: column;
+		align-items: initial;
 	}
 	
 	/* inside */
@@ -890,11 +902,11 @@ html body{
 	}
 	
 	.lesson-3-all-left-text {
-
+		font-size: 14px;
 	}
 	
 	.lesson-3-all-center {
-	
+		margin-top: 80px;
 	}
 	
 	.lesson-3-all-center-head {
@@ -918,7 +930,8 @@ html body{
 	}
 	
 	.lesson-3-all-center-box {
-
+		margin-top: 80px;
+		border: 0px;
 	}
 	
 	.lesson-3-all-center-box-head {
@@ -934,7 +947,7 @@ html body{
 	}
 	
 	.lesson-3-all-right {
-	
+		margin-top: 80px;
 	}
 	
 	.lesson-3-all-right-head {
@@ -950,15 +963,15 @@ html body{
 	}
 	
 	.lesson-3-all-right-text {
-
+		font-size: 14px;
 	}
 	
 	.lesson-3-all-line {
-
+		display: none;
 	}
 	
 	.lesson-3-all-close {
-
+		width: 30px;
 	}
 	
 	/* inside end */
