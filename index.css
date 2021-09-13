@@ -56,6 +56,7 @@ html body{
 }
 
 .bg-papper {
+	position: relative;
 	text-align: center;
 }
 
@@ -64,15 +65,22 @@ html body{
     margin-top: 100px;
 }
 
-.shine-text {
-    font-size: 48px;
-    margin: 80px 0px 60px;
-	color: #96ff3c;
+.rpg-close {
+	width: 300px;
+    top: 250px;
+    transform: rotate(-15deg);
+	position: absolute;
 	animation-duration: 0.6s;
     animation-name: blink;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
+}
+
+.shine-text {
+    font-size: 48px;
+    margin: 80px 0px 60px;
+	color: #96ff3c;
 }
 
 .wt-text {
@@ -171,17 +179,18 @@ html body{
 	top: 0px;
 	width: 260px;
     height: 85px;
-  background-image: url('./img/keelung-strange.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position-x: center;
+	background-image: url('./img/keelung-strange.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position-x: center;
 	background-position-y: center;
 }
 
-.lesson-1-down-text {
-	font-size: 14px;
-	line-height: 84px;
-	color: #96ff3c;
+.lesson-1-down-img2 {
+	display: none;
+	width: 150px;
+    margin: auto;
+    transform: translateY(15px);
 }
 
 /* 2 */
@@ -786,9 +795,12 @@ html body{
 	.lesson-1-down-img {
 
 	}
-	
-	.lesson-1-down-text {
 
+	.lesson-1-down-img2 {
+		/* display: none;
+		width: 150px;
+		margin: auto;
+		transform: translateY(15px); */
 	}
 	
 	/* 2 */

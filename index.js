@@ -3,14 +3,17 @@
 var lesson1up = document.getElementById('lesson1up');
 var lesson1down = document.getElementById('lesson1down');
 var lesson1downImg = document.getElementById('lesson1downImg');
+var lesson1downReport = document.getElementById('lesson1downReport');
 
 var lesson2up = document.getElementById('lesson2up');
 var lesson2down = document.getElementById('lesson2down');
 var lesson2downImg = document.getElementById('lesson2downImg');
+var lesson1downReport2 = document.getElementById('lesson1downReport2');
 
 var lesson3up = document.getElementById('lesson3up');
 var lesson3down = document.getElementById('lesson3down');
 var lesson3downImg = document.getElementById('lesson3downImg');
+var lesson1downReport3 = document.getElementById('lesson1downReport3');
 
 // 1
 
@@ -28,12 +31,14 @@ lesson1down.addEventListener('mouseover', function() {
     lesson1down.style.display = 'block';
     lesson1down.style.color = '#96ff3c';
     lesson1downImg.style.opacity = '0.3';
+    lesson1downReport.style.display = 'block';
 })
 
 lesson1down.addEventListener('mouseleave', function() {
     lesson1down.style.display = 'none';
     lesson1down.style.color = 'rgba(255,255,255,0)';
     lesson1downImg.style.opacity = '1';
+    lesson1downReport.style.display = 'none';
 })
 
 // 2
@@ -52,12 +57,14 @@ lesson2down.addEventListener('mouseover', function() {
     lesson2down.style.display = 'block';
     lesson2down.style.color = '#96ff3c';
     lesson2downImg.style.opacity = '0.3';
+    lesson1downReport2.style.display = 'block';
 })
 
 lesson2down.addEventListener('mouseleave', function() {
     lesson2down.style.display = 'none';
     lesson2down.style.color = 'rgba(255,255,255,0)';
     lesson2downImg.style.opacity = '1';
+    lesson1downReport2.style.display = 'none';
 })
 
 // 3
@@ -76,12 +83,14 @@ lesson3down.addEventListener('mouseover', function() {
     lesson3down.style.display = 'block';
     lesson3down.style.color = '#96ff3c';
     lesson3downImg.style.opacity = '0.3';
+    lesson1downReport3.style.display = 'block';
 })
 
 lesson3down.addEventListener('mouseleave', function() {
     lesson3down.style.display = 'none';
     lesson3down.style.color = 'rgba(255,255,255,0)';
     lesson3downImg.style.opacity = '1';
+    lesson1downReport3.style.display = 'none';
 })
 
 // 開合 lesson 1
@@ -123,22 +132,29 @@ closeLesson3.addEventListener('click', function() {
     lesson3.style.display = 'none'
 })
 
-// register
+// 新一層
+
+// 新一層 1
 
 var lesson1Register = document.getElementById('lesson1Register');
-lesson1Register.addEventListener('click', function() {
-    // window.location.href = 'https://forms.gle/AHmQN8NVS2D4DSwn8';
-    window.open('https://forms.gle/AHmQN8NVS2D4DSwn8');
-})
-
 var lesson2Register = document.getElementById('lesson2Register');
-lesson2Register.addEventListener('click', function() {
-    // window.location.href = 'https://forms.gle/AHmQN8NVS2D4DSwn8';
+var lesson3Register = document.getElementById('lesson3Register');
+
+
+
+lesson1Register.addEventListener('click', function() {
     window.open('https://forms.gle/AHmQN8NVS2D4DSwn8');
 })
 
-var lesson3Register = document.getElementById('lesson3Register');
-lesson3Register.addEventListener('click', function() {
-    // window.location.href = 'https://forms.gle/AHmQN8NVS2D4DSwn8';
+// 新一層 2
+
+lesson2Register.addEventListener('click', function() {
     window.open('https://forms.gle/AHmQN8NVS2D4DSwn8');
 })
+
+// 新一層 3
+
+lesson3Register.addEventListener('click', function() {
+    window.open('https://forms.gle/AHmQN8NVS2D4DSwn8');
+})
+
