@@ -328,15 +328,28 @@ html body{
 	color: #96ff3c;
 }
 
-.lesson-1-all-head {
-	font-size: 48px;
+.lesson-1-all-lesson-s {
+	font-size: 36px;
+	color: #96ff3c;
+}
+
+.lesson-1-all-subtitle {
 	margin: 6px 0px 12px;
+	font-size: 18px;
+	color: #96ff3c;
+}
+
+.lesson-1-all-head {
+	margin: 6px 0px 12px;
+	font-size: 48px;
 	color: white;
 }
 
 .lesson-1-all-text {
+	margin: 4px 0px;
 	font-size: 16px;
 	color: white;
+	line-height: 1.5;
 }
 
 .lesson-1-all-right {
@@ -354,6 +367,11 @@ html body{
 	margin: 12px 8px;
 }
 
+.lesson-1-all-next-img {
+	margin: 12px 8px;
+	width: 360px;
+}
+
 .lesson-1-all-green-text {
 	font-size: 16px;
 	color: #96ff3c;
@@ -361,9 +379,8 @@ html body{
 }
 
 .lesson-1-all-register {
-	margin-top: 16px;
-	width: 80px;
-	height: 90px;
+	height: 80px;
+	transform: rotate(25deg) translateY(-15px);
 	cursor: pointer;
 }
 
@@ -483,9 +500,8 @@ html body{
 }
 
 .lesson-2-all-register {
-	margin-top: 16px;
-	width: 80px;
-	height: 90px;
+	height: 80px;
+	transform: rotate(25deg) translateY(-15px);
 	cursor: pointer;
 }
 
@@ -650,9 +666,8 @@ html body{
 }
 
 .lesson-3-all-register {
-	margin-top: 20px;
-	width: 80px;
-	height: 90px;
+	height: 80px;
+	transform: rotate(25deg) translateY(-15px);
 	cursor: pointer;
 }
 
@@ -730,6 +745,10 @@ html body{
 	
 	.rpg-logo {
 		width: 180px;
+	}
+
+	.rpg-close {
+		width: 160px;
 	}
 	
 	.shine-text {
@@ -886,10 +905,19 @@ html body{
 	}
 	
 	.lesson-1-all-img {
+		width: 80%;
+	}
 
+	.lesson-1-all-next-img {
+		margin: 8px 4px;
+		width: 160px;
 	}
 	
 	.lesson-1-all-green-text {
+
+	}
+
+	.lesson-1-all-register {
 
 	}
 	

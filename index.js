@@ -93,10 +93,17 @@ lesson3down.addEventListener('mouseleave', function() {
     lesson1downReport3.style.display = 'none';
 })
 
-// 開合 lesson 1
+
+// 開合
 
 var lesson1 = document.getElementById('lesson1');
+var lesson2 = document.getElementById('lesson2');
+var lesson3 = document.getElementById('lesson3');
 var closeLesson1 = document.getElementById('closeLesson1');
+var closeLesson2 = document.getElementById('closeLesson2');
+var closeLesson3 = document.getElementById('closeLesson3');
+
+// 開合 lesson 1
 
 lesson1down.addEventListener('click', function() {
     lesson1.style.display = 'flex'
@@ -108,9 +115,6 @@ closeLesson1.addEventListener('click', function() {
 
 // 開合 lesson 2
 
-var lesson2 = document.getElementById('lesson2');
-var closeLesson2 = document.getElementById('closeLesson2');
-
 lesson2down.addEventListener('click', function() {
     lesson2.style.display = 'flex'
 })
@@ -121,9 +125,6 @@ closeLesson2.addEventListener('click', function() {
 
 // 開合 lesson 3
 
-var lesson3 = document.getElementById('lesson3');
-var closeLesson3 = document.getElementById('closeLesson3');
-
 lesson3down.addEventListener('click', function() {
     lesson3.style.display = 'flex'
 })
@@ -132,29 +133,49 @@ closeLesson3.addEventListener('click', function() {
     lesson3.style.display = 'none'
 })
 
-// 新一層
 
-// 新一層 1
+// 新一層
 
 var lesson1Register = document.getElementById('lesson1Register');
 var lesson2Register = document.getElementById('lesson2Register');
 var lesson3Register = document.getElementById('lesson3Register');
 
+var end1 = document.getElementById('end1');
+var end2 = document.getElementById('end2');
+var end3 = document.getElementById('end3');
 
+var closedEnd1 = document.getElementById('closedEnd1');
+var closedEnd2 = document.getElementById('closedEnd2');
+var closedEnd3 = document.getElementById('closedEnd3');
+
+
+// 新一層 1
 
 lesson1Register.addEventListener('click', function() {
-    window.open('https://forms.gle/AHmQN8NVS2D4DSwn8');
+    end1.style.display = 'flex'
+})
+
+closedEnd1.addEventListener('click', function() {
+    end1.style.display = 'none'
 })
 
 // 新一層 2
 
 lesson2Register.addEventListener('click', function() {
-    window.open('https://forms.gle/AHmQN8NVS2D4DSwn8');
+    end2.style.display = 'flex'
+})
+
+closedEnd2.addEventListener('click', function() {
+    end2.style.display = 'none'
 })
 
 // 新一層 3
 
 lesson3Register.addEventListener('click', function() {
-    window.open('https://forms.gle/AHmQN8NVS2D4DSwn8');
+    end3.style.display = 'flex'
+})
+
+closedEnd3.addEventListener('click', function() {
+    end3.style.display = 'none'
 })
 
