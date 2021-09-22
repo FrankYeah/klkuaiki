@@ -23,22 +23,14 @@ lesson1up.addEventListener('mouseover', function() {
 
 lesson1up.addEventListener('mouseleave', function() {
     lesson1down.style.display = 'none';
-    lesson1down.style.color = 'rgba(255,255,255,0)';
-    lesson1downImg.style.opacity = '1';
 })
 
 lesson1down.addEventListener('mouseover', function() {
     lesson1down.style.display = 'block';
-    lesson1down.style.color = '#96ff3c';
-    lesson1downImg.style.opacity = '0.3';
-    lesson1downReport.style.display = 'block';
 })
 
 lesson1down.addEventListener('mouseleave', function() {
     lesson1down.style.display = 'none';
-    lesson1down.style.color = 'rgba(255,255,255,0)';
-    lesson1downImg.style.opacity = '1';
-    lesson1downReport.style.display = 'none';
 })
 
 // 2
@@ -49,22 +41,14 @@ lesson2up.addEventListener('mouseover', function() {
 
 lesson2up.addEventListener('mouseleave', function() {
     lesson2down.style.display = 'none';
-    lesson2down.style.color = 'rgba(255,255,255,0)';
-    lesson2downImg.style.opacity = '1';
 })
 
 lesson2down.addEventListener('mouseover', function() {
     lesson2down.style.display = 'block';
-    lesson2down.style.color = '#96ff3c';
-    lesson2downImg.style.opacity = '0.3';
-    lesson1downReport2.style.display = 'block';
 })
 
 lesson2down.addEventListener('mouseleave', function() {
     lesson2down.style.display = 'none';
-    lesson2down.style.color = 'rgba(255,255,255,0)';
-    lesson2downImg.style.opacity = '1';
-    lesson1downReport2.style.display = 'none';
 })
 
 // 3
@@ -75,22 +59,14 @@ lesson3up.addEventListener('mouseover', function() {
 
 lesson3up.addEventListener('mouseleave', function() {
     lesson3down.style.display = 'none';
-    lesson3down.style.color = 'rgba(255,255,255,0)';
-    lesson3downImg.style.opacity = '1';
 })
 
 lesson3down.addEventListener('mouseover', function() {
     lesson3down.style.display = 'block';
-    lesson3down.style.color = '#96ff3c';
-    lesson3downImg.style.opacity = '0.3';
-    lesson1downReport3.style.display = 'block';
 })
 
 lesson3down.addEventListener('mouseleave', function() {
     lesson3down.style.display = 'none';
-    lesson3down.style.color = 'rgba(255,255,255,0)';
-    lesson3downImg.style.opacity = '1';
-    lesson1downReport3.style.display = 'none';
 })
 
 
